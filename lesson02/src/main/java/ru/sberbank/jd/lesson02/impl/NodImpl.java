@@ -17,18 +17,16 @@ public class NodImpl implements Nod {
     public int calculate(int first, int second) {
         if (first == 0 && second == 0) {
             throw new UnsupportedOperationException("Оба числа не могут быть равны нулю");
-        } else {
-            int firstNum = Math.abs(first);
-            int secondNum = Math.abs(second);
-            while (firstNum != 0 && secondNum != 0) {
-                if (firstNum > secondNum) {
-                    firstNum = firstNum % secondNum;
-                } else {
-                    secondNum = secondNum % firstNum;
-                }
-            }
-            return firstNum + secondNum;
         }
-
+        int firstNum = Math.abs(first);
+        int secondNum = Math.abs(second);
+        while (firstNum != 0 && secondNum != 0) {
+            if (firstNum > secondNum) {
+                firstNum = firstNum % secondNum;
+            } else {
+                secondNum = secondNum % firstNum;
+            }
+        }
+        return firstNum + secondNum;
     }
 }
