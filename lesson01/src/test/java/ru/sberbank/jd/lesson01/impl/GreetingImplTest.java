@@ -24,21 +24,19 @@ class GreetingImplTest {
 
     @Test
     void getBirthYear() {
-       int expected = 1985;
+        int expected = 1985;
         int actual = new GreetingImpl().getBirthYear();
         Assertions.assertEquals(expected, actual);
     }
 
     @Test
     void getHobbies() {
-
         Collection<String> expected = new ArrayList<>();
-        expected.add( "Шитье одежды");
-        expected.add( "Машинная вышивка");
-        expected.add( "Чтение");
+        expected.add("Шитье одежды");
+        expected.add("Машинная вышивка");
+        expected.add("Чтение");
         Collection<String> actual = new GreetingImpl().getHobbies();
         Assertions.assertEquals(expected, actual);
-
     }
 
     @Test
@@ -59,8 +57,8 @@ class GreetingImplTest {
     void getCourseExpectations() {
         ArrayList<String> expected = new ArrayList<>();
         expected.add("Научиться основам Java");
-        expected.add("Перестроить представление о программировании при переходе с ABAP" );
-        expected.add("Получить представление о современных подходах к разработке" );
+        expected.add("Перестроить представление о программировании при переходе с ABAP");
+        expected.add("Получить представление о современных подходах к разработке");
         Collection<String> actual = new GreetingImpl().getCourseExpectations();
         Assertions.assertEquals(expected, actual);
     }
