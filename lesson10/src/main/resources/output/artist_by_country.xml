@@ -1,1 +1,166 @@
-Тут должен быть результат в xml
+<ArtistRegistry countryCount="4">
+  <Country name="EU">
+    <Artist>
+      <Name>Savage Rose</Name>
+      <Albums>
+        <Album name="Black angel" year="1995"/>
+      </Albums>
+    </Artist>
+    <Artist>
+      <Name>Simply Red</Name>
+      <Albums>
+        <Album name="Picture book" year="1985"/>
+      </Albums>
+    </Artist>
+    <Artist>
+      <Name>Kim Larsen</Name>
+      <Albums>
+        <Album name="Midt om natten" year="1983"/>
+      </Albums>
+    </Artist>
+    <Artist>
+      <Name>Eros Ramazzotti</Name>
+      <Albums>
+        <Album name="Eros" year="1997"/>
+      </Albums>
+    </Artist>
+    <Artist>
+      <Name>Andrea Bocelli</Name>
+      <Albums>
+        <Album name="Romanza" year="1996"/>
+      </Albums>
+    </Artist>
+  </Country>
+  <Country name="USA">
+    <Artist>
+      <Name>Otis Redding</Name>
+      <Albums>
+        <Album name="The dock of the bay" year="1968"/>
+      </Albums>
+    </Artist>
+    <Artist>
+      <Name>Percy Sledge</Name>
+      <Albums>
+        <Album name="When a man loves a woman" year="1987"/>
+      </Albums>
+    </Artist>
+    <Artist>
+      <Name>Bob Dylan</Name>
+      <Albums>
+        <Album name="Empire Burlesque" year="1985"/>
+      </Albums>
+    </Artist>
+    <Artist>
+      <Name>Will Smith</Name>
+      <Albums>
+        <Album name="Big Willie style" year="1997"/>
+      </Albums>
+    </Artist>
+    <Artist>
+      <Name>Joe Cocker</Name>
+      <Albums>
+        <Album name="Unchain my heart" year="1987"/>
+      </Albums>
+    </Artist>
+    <Artist>
+      <Name>Many</Name>
+      <Albums>
+        <Album name="1999 Grammy Nominees" year="1999"/>
+      </Albums>
+    </Artist>
+    <Artist>
+      <Name>Dolly Parton</Name>
+      <Albums>
+        <Album name="Greatest Hits" year="1982"/>
+      </Albums>
+    </Artist>
+  </Country>
+  <Country name="Norway">
+    <Artist>
+      <Name>Jorn Hoel</Name>
+      <Albums>
+        <Album name="Soulsville" year="1996"/>
+      </Albums>
+    </Artist>
+  </Country>
+  <Country name="UK">
+    <Artist>
+      <Name>Gary Moore</Name>
+      <Albums>
+        <Album name="Still got the blues" year="1990"/>
+      </Albums>
+    </Artist>
+    <Artist>
+      <Name>Luciano Pavarotti</Name>
+      <Albums>
+        <Album name="Pavarotti Gala Concert" year="1991"/>
+      </Albums>
+    </Artist>
+    <Artist>
+      <Name>T'Pau</Name>
+      <Albums>
+        <Album name="Bridge of Spies" year="1987"/>
+      </Albums>
+    </Artist>
+    <Artist>
+      <Name>Kenny Rogers</Name>
+      <Albums>
+        <Album name="For the good times" year="1995"/>
+      </Albums>
+    </Artist>
+    <Artist>
+      <Name>The Communards</Name>
+      <Albums>
+        <Album name="Red" year="1987"/>
+      </Albums>
+    </Artist>
+    <Artist>
+      <Name>Van Morrison</Name>
+      <Albums>
+        <Album name="Tupelo Honey" year="1971"/>
+      </Albums>
+    </Artist>
+    <Artist>
+      <Name>Dr.Hook</Name>
+      <Albums>
+        <Album name="Sylvias Mother" year="1973"/>
+      </Albums>
+    </Artist>
+    <Artist>
+      <Name>Tina Turner</Name>
+      <Albums>
+        <Album name="Private Dancer" year="1983"/>
+      </Albums>
+    </Artist>
+    <Artist>
+      <Name>Cat Stevens</Name>
+      <Albums>
+        <Album name="The very best of" year="1990"/>
+      </Albums>
+    </Artist>
+    <Artist>
+      <Name>Bee Gees</Name>
+      <Albums>
+        <Album name="One night only" year="1998"/>
+      </Albums>
+    </Artist>
+    <Artist>
+      <Name>Bonnie Tyler</Name>
+      <Albums>
+        <Album name="Hide your heart" year="1988"/>
+      </Albums>
+    </Artist>
+    <Artist>
+      <Name>Sam Brown</Name>
+      <Albums>
+        <Album name="Stop" year="1988"/>
+      </Albums>
+    </Artist>
+    <Artist>
+      <Name>Rod Stewart</Name>
+      <Albums>
+        <Album name="Maggie May" year="1990"/>
+      </Albums>
+    </Artist>
+  </Country>
+</ArtistRegistry>

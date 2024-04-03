@@ -1,1 +1,172 @@
-Тут должен быть результат в json
+{
+  "countryCount" : 4,
+  "countries" : [ {
+    "name" : "EU",
+    "artists" : [ {
+      "name" : "Savage Rose",
+      "albums" : [ {
+        "name" : "Black angel",
+        "year" : 1995
+      } ]
+    }, {
+      "name" : "Simply Red",
+      "albums" : [ {
+        "name" : "Picture book",
+        "year" : 1985
+      } ]
+    }, {
+      "name" : "Kim Larsen",
+      "albums" : [ {
+        "name" : "Midt om natten",
+        "year" : 1983
+      } ]
+    }, {
+      "name" : "Eros Ramazzotti",
+      "albums" : [ {
+        "name" : "Eros",
+        "year" : 1997
+      } ]
+    }, {
+      "name" : "Andrea Bocelli",
+      "albums" : [ {
+        "name" : "Romanza",
+        "year" : 1996
+      } ]
+    } ]
+  }, {
+    "name" : "USA",
+    "artists" : [ {
+      "name" : "Otis Redding",
+      "albums" : [ {
+        "name" : "The dock of the bay",
+        "year" : 1968
+      } ]
+    }, {
+      "name" : "Percy Sledge",
+      "albums" : [ {
+        "name" : "When a man loves a woman",
+        "year" : 1987
+      } ]
+    }, {
+      "name" : "Bob Dylan",
+      "albums" : [ {
+        "name" : "Empire Burlesque",
+        "year" : 1985
+      } ]
+    }, {
+      "name" : "Will Smith",
+      "albums" : [ {
+        "name" : "Big Willie style",
+        "year" : 1997
+      } ]
+    }, {
+      "name" : "Joe Cocker",
+      "albums" : [ {
+        "name" : "Unchain my heart",
+        "year" : 1987
+      } ]
+    }, {
+      "name" : "Many",
+      "albums" : [ {
+        "name" : "1999 Grammy Nominees",
+        "year" : 1999
+      } ]
+    }, {
+      "name" : "Dolly Parton",
+      "albums" : [ {
+        "name" : "Greatest Hits",
+        "year" : 1982
+      } ]
+    } ]
+  }, {
+    "name" : "Norway",
+    "artists" : [ {
+      "name" : "Jorn Hoel",
+      "albums" : [ {
+        "name" : "Soulsville",
+        "year" : 1996
+      } ]
+    } ]
+  }, {
+    "name" : "UK",
+    "artists" : [ {
+      "name" : "Gary Moore",
+      "albums" : [ {
+        "name" : "Still got the blues",
+        "year" : 1990
+      } ]
+    }, {
+      "name" : "Luciano Pavarotti",
+      "albums" : [ {
+        "name" : "Pavarotti Gala Concert",
+        "year" : 1991
+      } ]
+    }, {
+      "name" : "T'Pau",
+      "albums" : [ {
+        "name" : "Bridge of Spies",
+        "year" : 1987
+      } ]
+    }, {
+      "name" : "Kenny Rogers",
+      "albums" : [ {
+        "name" : "For the good times",
+        "year" : 1995
+      } ]
+    }, {
+      "name" : "The Communards",
+      "albums" : [ {
+        "name" : "Red",
+        "year" : 1987
+      } ]
+    }, {
+      "name" : "Van Morrison",
+      "albums" : [ {
+        "name" : "Tupelo Honey",
+        "year" : 1971
+      } ]
+    }, {
+      "name" : "Dr.Hook",
+      "albums" : [ {
+        "name" : "Sylvias Mother",
+        "year" : 1973
+      } ]
+    }, {
+      "name" : "Tina Turner",
+      "albums" : [ {
+        "name" : "Private Dancer",
+        "year" : 1983
+      } ]
+    }, {
+      "name" : "Cat Stevens",
+      "albums" : [ {
+        "name" : "The very best of",
+        "year" : 1990
+      } ]
+    }, {
+      "name" : "Bee Gees",
+      "albums" : [ {
+        "name" : "One night only",
+        "year" : 1998
+      } ]
+    }, {
+      "name" : "Bonnie Tyler",
+      "albums" : [ {
+        "name" : "Hide your heart",
+        "year" : 1988
+      } ]
+    }, {
+      "name" : "Sam Brown",
+      "albums" : [ {
+        "name" : "Stop",
+        "year" : 1988
+      } ]
+    }, {
+      "name" : "Rod Stewart",
+      "albums" : [ {
+        "name" : "Maggie May",
+        "year" : 1990
+      } ]
+    } ]
+  } ]
+}
