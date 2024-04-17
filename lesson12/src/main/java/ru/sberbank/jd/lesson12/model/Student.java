@@ -1,12 +1,19 @@
 package ru.sberbank.jd.lesson12.model;
 
-
 import java.util.Date;
 import java.util.UUID;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 /**
  * Класс, отражающий структуру хранимых в таблице полей.
  */
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
 public class Student {
 
     /*
@@ -26,4 +33,19 @@ public class Student {
 
     private boolean isGraduated;
 
+    /**
+     *Вывод данных студента на печать.
+     *
+     * @return Студент
+     */
+    @Override
+    public String toString() {
+        return "Student{"
+                + "id=" + id
+                + ", firstName='" + firstName + '\''
+                + ", lastName='" + lastName + '\''
+                + ", birthDate=" + birthDate
+                + ", isGraduated=" + isGraduated
+                + '}';
+    }
 }
