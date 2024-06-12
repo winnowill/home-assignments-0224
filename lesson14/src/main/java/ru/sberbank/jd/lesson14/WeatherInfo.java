@@ -1,12 +1,15 @@
 package ru.sberbank.jd.lesson14;
 
 import java.time.LocalDateTime;
+import lombok.Builder;
+import lombok.Getter;
 
 /**
  * Weather info.
  */
+@Builder
 public class WeatherInfo {
-
+    @Getter
     private String city;
 
     /**
@@ -24,6 +27,7 @@ public class WeatherInfo {
     /**
      * Temperature.
      */
+    @Getter
     private double temperature;
 
     /**
@@ -46,4 +50,28 @@ public class WeatherInfo {
      * If current time is above expiry time then current weather info is not actual!
      */
     private LocalDateTime expiryTime;
+
+    /**
+     * Weather info city.
+     *
+     * @return Weather info city description.
+     */
+    @Override
+    public String toString() {
+        return "WeatherInfo{"
+                + "city='" + city + '\''
+                + ", shortDescription='" + shortDescription + '\''
+                + ", description='" + description + '\''
+                + ", temperature=" + temperature
+                + ", feelsLikeTemperature=" + feelsLikeTemperature
+                + ", windSpeed=" + windSpeed
+                + ", pressure=" + pressure
+                + ", expiryTime=" + expiryTime
+                + '}';
+    }
+
+    public Boolean isRelevanceTime() {
+
+        return expiryTime.isAfter(LocalDateTime.now());
+    }
 }
