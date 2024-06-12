@@ -29,16 +29,30 @@ public class WeatherCache {
      * @param city - city
      * @return actual weather info
      */
-    public WeatherInfo getWeatherInfo(String city) {
-        // should be implemented
-        return null;
+    public synchronized WeatherInfo getWeatherInfo(String city) {
+        WeatherInfo cacheWeatherInfo = cache.get(city);
+        // check cache
+        if (cacheWeatherInfo != null) {
+            // check relevance time
+            if (cacheWeatherInfo.isRelevanceTime()) {
+                return cacheWeatherInfo;
+            }
+            // remove from cache
+            removeWeatherInfo(city);
+        }
+        // download weather info
+        cacheWeatherInfo = weatherProvider.get(city);
+        if (cacheWeatherInfo != null) {
+            cache.put(city, cacheWeatherInfo);
+        }
+        return cacheWeatherInfo;
     }
 
     /**
      * Remove weather info from cache.
      **/
     public void removeWeatherInfo(String city) {
-        // should be implemented
+        cache.remove(city);
     }
 }
 
