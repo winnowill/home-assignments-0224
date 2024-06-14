@@ -1,4 +1,4 @@
-# Lesson 10. Object serialization mechanism
+ # Lesson 10. Object serialization mechanism
 
 В файле `src/main/resources/input/cd_catalog.xml` располагается информация о музыкальных альбомах.
 
