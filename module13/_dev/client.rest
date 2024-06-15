@@ -1,0 +1,6 @@
+GET  http://localhost:8080/students
+Authorization: Basic dGVzdDp0ZXN0MTIz
+
+###
+POST http://localhost:8080/insertStudent
+Authorization: Basic dGVzdDI6dGVzdDEyMw==
