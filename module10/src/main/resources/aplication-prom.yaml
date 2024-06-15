@@ -1,0 +1,3 @@
+app:
+  param1: name profile prom
+  url: https://httpbin.org/get
